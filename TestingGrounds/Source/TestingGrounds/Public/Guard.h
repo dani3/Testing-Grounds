@@ -11,11 +11,5 @@ UCLASS()
 class TESTINGGROUNDS_API AGuard : public ATP_ThirdPersonCharacter
 {
 	GENERATED_BODY()
-	
-public:
-	TArray<AActor*> GetPatrolPoints() const;
 
-protected:
-	UPROPERTY(EditInstanceOnly, Category = "Patrol Route")
-	TArray<AActor*> PatrolPoints;
 };
